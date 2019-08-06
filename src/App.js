@@ -78,7 +78,7 @@ class App extends Component {
 
         <Title>
           Click on each character, but don't hit any duplicates, or
-          you'll lose points!!!
+          you'll lose!!!
         </Title>
 
         <Container>
