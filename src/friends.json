@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/ComicBookGuy2.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/F1_red_flag.svg",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/BarneyBikini.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Solid_orange.svg",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Apu1.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Solid_yellow.svg",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/MrBurns4.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Green_square.svg",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Cletus1.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Solid_blue.svg",
     "clicked": false
   },
   {
     "id": 6,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Duffman.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Solid_purple.svg",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/NedFlanders2.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Solid_brown.svg",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Krusty8.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Solid_black.svg",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Milhouse2.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gray_140.png",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/GroundskeeperWilly1.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Earl-Solace-Cover.jpg",
     "clicked": false
   },
   {
     "id": 11,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/RalphWiggum4.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Light_brown.PNG",
     "clicked": false
   },
   {
     "id": 12,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/MoeSzyslak1.gif",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Solid_white.svg",
     "clicked": false
   }
 ]
