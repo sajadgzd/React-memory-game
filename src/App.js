@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Footer from "./components/Footer";
 import Container from "./Container";
 import Row from "./Row";
 import Column from "./Column";
@@ -70,14 +71,14 @@ class App extends Component {
     return (
       <Wrapper >
         <Nav
-          title="Clicky Game"
+          title="Memory Game"
           score={this.state.currentScore}
           topScore={this.state.topScore}
           rightWrong={this.state.rightWrong}
         />
 
         <Title>
-          Click on each character, but don't hit any duplicates, or
+          Click on each card, but don't hit any duplicates, or
           you'll lose!!!
         </Title>
 
@@ -98,6 +99,7 @@ class App extends Component {
             ))}
           </Row>
         </Container>
+        <Footer></Footer>
       </Wrapper>
     );
   }
