@@ -2,7 +2,7 @@
 A React app which tests your memory! 
 Click on each character once to win the game. But don't click on a character twice, or you will lose the game!
 
-[Live Demo](https://practical-jones-461497.netlify.com)
+- [Live Demo](https://practical-jones-461497.netlify.com)
 
 
 
