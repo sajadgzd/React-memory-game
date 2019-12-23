@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 import Container from "./Container";
 import Row from "./Row";
 import Column from "./Column";
-import friends from "./friends.json";
+import cards from "./cards.json";
 import "./App.css";
 
-function shuffleFriends(array) {
+function shuffleCards(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
@@ -21,7 +21,7 @@ function shuffleFriends(array) {
 class App extends Component {
   // Set the state
   state = {
-    friends,
+    cards,
     currentScore: 0,
     topScore: 0,
     rightWrong: "",
@@ -63,8 +63,8 @@ class App extends Component {
   };
 
   handleShuffle = () => {
-    let shuffledFriends = shuffleFriends(friends);
-    this.setState({ friends: shuffledFriends });
+    let shuffledCards = shuffleCards(cards);
+    this.setState({ cards: shuffledCards });
   };
 
   render() {
@@ -84,7 +84,7 @@ class App extends Component {
 
         <Container>
           <Row>
-            {this.state.friends.map(friend => (
+            {this.state.cards.map(friend => (
               <Column size="md-3 sm-6">
                 <Card
                   key={friend.id}
