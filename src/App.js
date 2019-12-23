@@ -46,7 +46,7 @@ class App extends Component {
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    if (newScore === 3) {
+    if (newScore === 12) {
 
       this.setState({ rightWrong: "You win!" });
       const timer = setTimeout(() => {
