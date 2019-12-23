@@ -46,8 +46,21 @@ class App extends Component {
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    if (newScore === 12) {
+    if (newScore === 3) {
+
       this.setState({ rightWrong: "You win!" });
+      const timer = setTimeout(() => {
+        // console.log('This will run after 1 second!')
+
+        this.setState({
+          currentScore: 0,
+          topScore: this.state.topScore,
+          rightWrong: "",
+          clicked: []
+        })
+
+      }, 2000);
+
     }
     this.handleShuffle();
   };
